@@ -1,0 +1,110 @@
+/*html {
+  padding: 0;
+  margin: 0;
+}*/
+
+body {
+  font-family: arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+main {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+header {
+  justify-content: right;
+  text-align: right;
+  color: black;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 25px;
+  border-radius: 4px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  /*display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 30px;
+  font-size: 14px;*/
+}
+
+h1 {
+  font: arial;
+  justify-content: center;
+  size: 49 px;
+  margin-top: 260px;
+}
+.fit-picture {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  size: 40px;
+}
+.buttonbuttom {
+  align-content: center;
+  justify-content: center;
+  color: grey;
+}
+.logo {
+  justify-content: center;
+  size: 1000cm;
+}
+
+footer {
+  border-top: 1px solid #e4e4e4;
+  padding: 8px 16px;
+  background-color: lightgrey;
+  color: black;
+  font-style: normal;
+  font-family: Arial, sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer > div.ligne_2 {
+  /*display: flex;
+  flex-direction: row-reverse;*/
+  color: rgb(34, 34, 34);
+}
+
+footer > div.ligne_1 {
+  text-align: left;
+  flex-direction: row-reverse;
+  color: rgb(34, 34, 34);
+}
+
+footer > div.ligne_2 > div.firstpart {
+  text-align: right;
+  flex-direction: row-reverse;
+  left: 300px;
+  right: 500px;
+  color: rgb(34, 34, 34);
+}
+
+footer > div.ligne_2 > div.secondpart {
+  text-align: left;
+  left: 30px;
+  flex-direction: row-reverse;
+  color: rgb(34, 34, 34);
+}
